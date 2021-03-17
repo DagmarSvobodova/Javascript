@@ -1,0 +1,125 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(133, 122, 116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculatrice {
+    width: 80vw;
+    height: 80vh;
+    background-color: rgb(141, 67, 18);
+    border: 4px solid rgba(32, 30, 30, 0.521);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+.display {
+    width: 50vw;
+    height: 20vh;
+    padding: 1rem;
+    border: 2px solid rgba(255, 0, 0, 0.521);
+    border-radius: 10px;
+    background-color: rgb(109, 93, 93);
+    color: rgb(18, 189, 92);
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.estetic {
+    width: 1rem;
+    height: 2rem;
+    border-bottom: 2px solid rgb(18, 189, 92);
+}
+
+.operations {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 53vw;
+    height: 10vh;
+    padding: 1rem 0;
+}
+
+.operation {
+    background-color: rgba(255, 255, 255, 0.486);
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vw;
+    height: 7vh;
+    font-size: 1.8rem;
+    margin: 0.50rem;
+}
+
+.numbres {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 45vw;
+    height: 30vh;
+    padding: 0;
+}
+
+.numbre {
+    background-color: rgba(255, 255, 255, 0.486);
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vw;
+    height: 7vh;
+    font-size: 1.8rem;
+    margin: 0.50rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 53vw;
+    height: 10vh;
+    padding: 1rem 0;
+}
+
+.calcul {
+    background-color: rgba(255, 255, 255, 0.486);
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vw;
+    height: 7vh;
+    font-size: 1.8rem;
+    margin: 0.50rem;
+}
+
+.takeOff {
+    background-color: rgba(255, 255, 255, 0.486);
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vw;
+    height: 7vh;
+    font-size: 1.8rem;
+    margin: 0.50rem;
+}

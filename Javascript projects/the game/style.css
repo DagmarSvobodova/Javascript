@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(163, 92, 116);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+h6 {
+    margin: 0.2rem;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+}
+
+.map {
+    margin: 2rem 0;
+    width: 60vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.greenMap {
+    background-color: rgb(12, 85, 12);
+    border: 0.1rem solid black;
+    width: 13vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orangeMap {
+    background-color: rgb(189, 127, 11);
+    border: 0.1rem solid black;
+    width: 13vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redMap {
+    background-color: rgb(209, 9, 9);
+    border: 0.1rem solid black;
+    width: 13vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keyMap {
+    width: 13vw;
+    height: 10vh;
+    background-color: white;
+    border: 0.1rem solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.keyMap img {
+    width: auto;
+    height: 100%;
+}
+
+.move {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: peru;
+    border: 0.1rem solid black;
+    width: 13vw;
+    height: 10vh;
+    margin: 2rem 1rem;
+}
+
+#move {
+    font-size: 2rem;
+}
+
+.playground {
+    background-color: palegoldenrod;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 65vh;
+    padding: 0.3rem;
+}
+
+.table {
+    width: 8%;
+    height: 17%;
+    margin: 0.1rem;
+    border: 0.1rem solid black;
+}
+
+.position-2 {
+    background-color: rgb(209, 9, 9);
+    width: 8%;
+    height: 17%;
+    margin: 0.1rem;
+    border: 0.1rem solid black;
+}
+
+.position-1 {
+    background-color: rgb(189, 127, 11);
+    width: 8%;
+    height: 17%;
+    margin: 0.1rem;
+    border: 0.1rem solid black;
+}
+
+.key {
+    background-image: url("key.gif");
+    background-color: white;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 8%;
+    height: 17%;
+    margin: 0.1rem;
+    border: 0.1rem solid black;
+}
+
+.position-0 {
+    background-color: rgb(12, 85, 12);
+    width: 8%;
+    height: 17%;
+    margin: 0.1rem;
+    border: 0.1rem solid black;
+}
